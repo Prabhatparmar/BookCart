@@ -1,0 +1,43 @@
+.seller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.seller-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.seller-form h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.seller-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.seller-form button {
+  padding: 10px;
+  background-color: #54B4D3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.seller-form button:hover {
+  background-color: #429cb8;
+}
