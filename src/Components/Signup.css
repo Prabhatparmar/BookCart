@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(233, 232, 232);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.form-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 40px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+.form-toggle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.form-toggle button{
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.form-toggle .active{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.form input::placeholder {
+  font-family: sans-serif; 
+  font-size: 16px;             
+  font-style: normal;                 
+  color: #999;
+}
+.form .bttn{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    border-radius: 24px;
+    display: flex;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+input:focus {
+  outline: none;
+}
+.form select {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  appearance: none;
+  cursor: pointer;
+  color: black;
+  outline: none;
+}
+
+.form select:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
